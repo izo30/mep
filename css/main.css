@@ -49,7 +49,7 @@ h1 {
     margin: 0;
 }
 
-section {
+.hero-section section {
     height: 140px;
     background: url("../images/hero.png");
     opacity: 0.88;
@@ -210,8 +210,70 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+
+/* services page */
+.hero-section-services {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.hero-section-services section {
+    background: #800080;
+    opacity: 0.88;
+    padding: 5% 0;
+    position: relative;
+    z-index: 7;
+}
+
+.hero-section-services section::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-5deg);
+}
+
+.hero-section-services h1 {
+    margin: 0 10%;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: none !important;
+}
+
+.gray-container-services h3 {
+    font-size: 25px;
+}
+
+.gray-container-services p {
+    text-align: left;
+}
+
+.gray-container-services {
+    background: #F6F6F6;
+    padding: 2em 0 2em;
+    margin-top: 8%;
+}
+
+.gray-container-services ul li:first-child {
+    margin-bottom: 0;
+}
+
+.gray-container-services ul li:last-child p {
+    margin-bottom: 0;
+}
+
+.gray-container-services ul li {
+    padding: 2%;
+}
+
+
 @media only screen and (min-width: 413px) {
-    section {
+    .hero-section section {
         background: #800080;
         opacity: 0.88;
     }
@@ -223,7 +285,7 @@ nav ul li a:hover {
         margin-left: .5%;
     }
 
-    section {
+    .hero-section section {
         width: 40%;
         height: 130px;
         border: 1px solid #707070;
@@ -239,6 +301,17 @@ nav ul li a:hover {
     }
 
     .gray-container ul {
+        display: flex;
+    }
+
+    /* services page */
+    .hero-section-services h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .gray-container-services ul {
         display: flex;
     }
 
@@ -263,10 +336,6 @@ nav ul li a:hover {
 
     .hero-section {
         padding: 0 5%;
-    }
-
-    .section {
-        width: 450px;
     }
 
     .subsection-container{
@@ -318,6 +387,7 @@ nav ul li a:hover {
         background-color: inherit;
         text-align: right;
         padding: 1em 2em;
+        border-bottom: #ff775f;
     }
 
     nav ul li a:hover {
@@ -344,12 +414,12 @@ nav ul li a:hover {
         margin: 0 0 0 4.5%;
     }
 
-    section {
+    .hero-section section {
         width: 400px;
         height: 300px;
     }
 
-    section h1 {
+    .hero-section section h1 {
         font-size: 3.4em;
         font-weight: 400;
         line-height: 1em;
@@ -398,12 +468,12 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 1188px) {
-    section {
+    .hero-section section {
         width: 500px;
         height: 300px;
     }
 
-    section h1 {
+    .hero-section section h1 {
         font-size: 4em;
         font-weight: 400;
         line-height: 1em;
