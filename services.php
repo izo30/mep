@@ -20,9 +20,9 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="#" class="active">products and services</a></li>
-                    <li><a href="#">blog</a></li>
+                    <li><a href="index.php">home</a></li>
+                    <li><a href="" class="active">products and services</a></li>
+                    <li><a href="blog.php">blog</a></li>
                 </ul>
             </nav>
         </header>

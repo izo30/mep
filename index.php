@@ -20,9 +20,9 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
-                    <li><a href="#" class="active">home</a></li>
-                    <li><a href="services.html">products and services</a></li>
-                    <li><a href="#">blog</a></li>
+                    <li><a href="" class="active">home</a></li>
+                    <li><a href="services.php">products and services</a></li>
+                    <li><a href="blog.php">blog</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,7 +31,7 @@
     <div class="hero-section">
 
         <section>
-            <h1>MY <br> EVERY <br> PENNY <br> ACCOUNTING</h1>
+            <h1>My <br> Every <br> Penny <br> Accounting</h1>
         </section>
 
         <div class="subsection-container">
