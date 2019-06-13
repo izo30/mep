@@ -243,7 +243,7 @@ nav ul li a:hover {
 
 .gray-container-services {
     background: #F6F6F6;
-    padding: 2em 0 2em;
+    padding: 2em 0;
     margin-top: 8%;
 }
 
@@ -334,6 +334,33 @@ aside ul li a:hover {
     border-bottom-color: #565353;
 }
 
+/* consult page */
+div.consult-container {
+    background: #e7e7e7;
+    margin: 0;
+    padding: 10%;
+}
+
+.consult-container , input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.consult-container input[type=submit] {
+    width: 100%;
+    background-color: #4a054a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 413px) {
     .hero-section section {
@@ -382,6 +409,13 @@ aside ul li a:hover {
         display: flex;
     }
 
+    .gray-container-services ul li {
+        flex: 1 1 100%;  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
     /* blog page */
     aside {
         width: 40%;
@@ -396,6 +430,10 @@ aside ul li a:hover {
         display: flex;
     }
 
+    /* consult page */
+    div.consult-container {
+        padding: 10% 20%;
+    }
 }
 
 @media only screen and (min-width: 704px) {
@@ -541,6 +579,7 @@ aside ul li a:hover {
         font-size: 25px;
         font-weight: 400;
         line-height: 46px;
+        margin-bottom: 20px;
     }
 
     .gray-container ul {
@@ -579,6 +618,11 @@ aside ul li a:hover {
     .blog-container {
         display: -webkit-flex; /* Safari */
         display: flex;
+    }
+
+    /* consult page */
+    div.consult-container {
+        padding: 5% 25%;
     }
 }
 

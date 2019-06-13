@@ -59,7 +59,7 @@ $next_article = $article->fetch_next_id($data['article_id']);
                 <?php echo $data['article_title']; ?>
             </h1>
             <ul>
-                <li>By Lauren Page,</li>
+                <li>By Hellen,</li>
                 <li>Posted on <?php echo date('jS M Y', $data['article_timestamp']); ?></li>
             </ul>
             <p>
@@ -105,11 +105,19 @@ $next_article = $article->fetch_next_id($data['article_id']);
                 <a href="#">
                     <img src="images/light-logo.svg" alt="logo" class="logo">
                 </a>
-                <p class="address">Nairobi CBD, 98210<br>Kenya</p>
-                <ul class="footer-links">
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
+                <br><br>
+                <a href="http://instagram.com/kabbie_Wangethi">
+                    <img src="images/instagram.svg" alt="instagram" class="social-media">
+                </a>
+                <a href="https://twitter.com/KabiWangethi">
+                    <img src="images/twitter.svg" alt="twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/kabi-wangethi">
+                    <img src="images/linkedin.svg" alt="linkedin">
+                </a>
+                <a href="https://www.pinterest.com/KabiWangethi">
+                    <img src="images/pinterest.svg" alt="pinterest">
+                </a>
             </div>
         </div>
     </footer>
