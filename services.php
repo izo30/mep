@@ -31,7 +31,7 @@
     <div class="hero-section-services">
 
         <section>
-            <h1>We provide the best accounting services for your business.</h1>
+            <h1>We provide the best business and accounting services for your small business.</h1>
         </section>
 
     </div>
@@ -44,22 +44,22 @@
                 <li>
                     <figure>
                         <img src="images/consultation.svg" alt="user testimonial picture">
-                        <h3>Accounting Consultancy</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloreundefined</p>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/accounting-software.svg" alt="user testimonial picture">
-                        <h3>Accounting Software</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloreundefined</p>
+                        <h3>Business and Accounting Consultancy</h3>
+                        <p>We help you analyse financial information to enable better decision making for your business. we guide you through the process of choosing a reliable accounting software that is best suited for your business needs and provide you with support to enable you use the software efficiently.</p>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img src="images/social-media.svg" alt="user testimonial picture">
                         <h3>Social Media Strategy and Management</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloreundefined</p>
+                        <p>We lay the groundwork for building a healthy relationship between your business and your customers. We provide compelling visuals and engaging messgaes that attract more customers to your business and provide a better understanding of your business products and services easily. We beleive that every business should take advantage of social media for marketing and we are here to help in every way.</p>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/software.svg" alt="user testimonial picture">
+                        <h3>Application and Web Design</h3>
+                        <p>We provide quality application development and wesite development. In the modern era, every business should have a website or an application to help support its day to day operations or even expand them. We are here to guide you through the best solution for your businesss and provide quality development services.</p>
                     </figure>
                 </li>
             </ul>
@@ -68,7 +68,7 @@
 
     <div class="container">
         <h4>Request for our services now!</h4>
-        <a href="#" class="cta">Get Started</a>
+        <a href="consult.php" class="cta">Get Started</a>
     </div>
 
     <footer>
@@ -77,11 +77,19 @@
                 <a href="#">
                     <img src="images/light-logo.svg" alt="logo" class="logo">
                 </a>
-                <p class="address">Nairobi CBD, 98210<br>Kenya</p>
-                <ul class="footer-links">
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
+                <br><br>
+                <a href="http://instagram.com/kabbie_Wangethi">
+                    <img src="images/instagram.svg" alt="instagram" class="social-media">
+                </a>
+                <a href="https://twitter.com/KabiWangethi">
+                    <img src="images/twitter.svg" alt="twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/kabi-wangethi">
+                    <img src="images/linkedin.svg" alt="linkedin">
+                </a>
+                <a href="https://www.pinterest.com/KabiWangethi">
+                    <img src="images/pinterest.svg" alt="pinterest">
+                </a>
             </div>
         </div>
     </footer>

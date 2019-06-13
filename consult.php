@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MEP</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
 </head>
 <body>
 
@@ -28,58 +30,26 @@
         </header>
     </div>
 
-    <div class="hero-section">
+    <div class="consult-container">
+        <form action="includes/sendEmail.php" method="post">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Your name or company name.." minlength="2" required><br><br>
 
-        <section>
-            <h1>My <br> Every <br> Penny <br> Accounting</h1>
-        </section>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email.." required><br><br>
 
-        <div class="subsection-container">
-            <div class="container">
-                <h2>Accounting for your small businness</h2>
-                <p>Get quality accounting services for your business needs.</p>
-            </div>
-        </div>
+            <label for="service">Service</label>
+            <select id="service" name="service">
+                <option value="consult">Business and Accounting Consultancy</option>
+                <option value="social">Social Media Strategy and Management</option>
+                <option value="software">Application and Web Design</option>
+                <option value="other">Other</option>
+            </select><br><br>
 
+            <input type="submit" value="Submit">
+        </form>
     </div>
-
-    <img src="images/scroll.svg" alt="scroll down" class="scroll hide-mobile show-desktop">
-
-    <div class="peach-container">
-        <div class="container">
-            <div class="peach-container-content">
-                <h3>About MEP</h3>
-                <p>MEP provides the perfect combination of book keeping services, business consultations, app and web design coupled with social media management. We guide you on how to grow your small business ,and manage your family finances for a smooth ride through life. Our dedicated team of experts will partner with you to grow your brand.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="gray-container">
-        <div class="container">
-            <ul>
-                <li>
-                    <figure>
-                        <img src="images/user1.png" alt="user testimonial picture">
-                        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
-                        <figcaption>- Jane Doe, CEO</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/user2.png" alt="user testimonial picture">
-                        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
-                        <figcaption>- John Doe, Director</figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-    </div> 
-
-    <div class="container">
-        <h4>Consult with us now!</h4>
-        <a href="consult.php" class="cta">Get Started</a>
-    </div>
-
+    
     <footer>
         <div class="footer-container">
             <div class="container">
@@ -102,6 +72,10 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        $("#commentForm").validate();
+    </script>
 
     <script>
 
