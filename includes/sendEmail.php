@@ -32,7 +32,7 @@
         // Email Settings
         $mail->isHTML(true);
         $mail->setFrom($email, $company);
-        $mail->addAddress("isaacbrian30@gmail.com"); // where we are sending an email
+        $mail->addAddress("myeverypenny@gmail.com"); // where we are sending an email
         $mail->Subject = $service;
         $mail->Body = $body;
 

@@ -162,6 +162,10 @@ ul.footer-links li a {
     font-size: .8em;  
 }
 
+.footer-container img {
+    margin: 0 3%;
+}
+
 nav ul {
     position: fixed;
     width: 75%;
@@ -196,6 +200,35 @@ nav ul li a:hover {
 .exit-btn img {
     width: 15px;
     cursor: pointer;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 3;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: white;
+    background-color: #737373;
+    padding: 12px 30px 12px 40px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 
@@ -257,6 +290,16 @@ nav ul li a:hover {
 
 .gray-container-services ul li {
     padding: 2%;
+}
+
+.gray-container-services ul.software-services-list {
+    text-align: left;
+    list-style-type: square;
+}
+
+.gray-container-services ul.software-services-list li {
+    font-size: 20px;
+    margin: 0 0 0 1em;
 }
 
 /* blog page */
@@ -353,6 +396,7 @@ div.consult-container {
 
 .consult-container input[type=submit] {
     width: 100%;
+    font-size: 20px;
     background-color: #4a054a;
     color: white;
     padding: 14px 20px;
@@ -390,6 +434,20 @@ div.consult-container {
         margin-left: 50%;
     }
 
+    .subsection-container h2 {
+        font-size: 3em;
+        font-weight: 600;
+        line-height: 1em;
+        margin: 0 5% 0 0;
+        padding: 0;
+    }
+
+    .subsection-container p {
+        width: 100%;
+        font-size: 1.25em;
+        line-height: 1.6em;
+    }
+
     .gray-container {
         padding-top: 0;
     }
@@ -407,13 +465,12 @@ div.consult-container {
 
     .gray-container-services ul {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .gray-container-services ul li {
-        flex: 1 1 100%;  
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        flex-basis: 40%;
     }
 
     /* blog page */
@@ -499,7 +556,6 @@ div.consult-container {
 
     nav ul li a {
         color: #565353;
-        font-family: Montserrat;
         font-size: 20px;
         font-weight: 600;
         line-height: 24px;
@@ -511,6 +567,28 @@ div.consult-container {
 
     nav ul li a:hover {
         background-color: inherit;
+    }
+
+    nav ul li a.dropbtn:hover {
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        background: rgb(45, 50, 53);
+        padding: 10px 0;
+    }
+
+    .dropdown-content a {
+        background: rgb(45, 50, 53);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: .5em 2em;
+    }
+
+    .dropdown-content a:hover {
+        background-color: rgb(61, 61, 61);
+        color: white;
     }
 
     .scroll {
@@ -543,21 +621,6 @@ div.consult-container {
         font-weight: 400;
         line-height: 1em;
         margin: 5%;
-    }
-
-    .subsection-container h2 {
-        font-size: 3.5em;
-        font-weight: 600;
-        line-height: 1em;
-        margin: 3% 15% 0 0;
-        padding: 0;
-    }
-
-    .subsection-container p {
-        width: 80%;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 45px;
     }
 
     .subsection-container {
@@ -637,21 +700,6 @@ div.consult-container {
         font-weight: 400;
         line-height: 1em;
         margin: 5%;
-    }
-
-    .subsection-container h2 {
-        font-size: 3.8em;
-        font-weight: 600;
-        line-height: 1em;
-        margin: 5% 15% 0 0;
-        padding: 0;
-    }
-
-    .subsection-container p {
-        width: 80%;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 45px;
     }
 
 }
