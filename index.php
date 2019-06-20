@@ -20,9 +20,18 @@
 
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
-                    <li><a href="" class="active">home</a></li>
-                    <li><a href="services.php">products and services</a></li>
-                    <li><a href="blog.php">blog</a></li>
+                    <li><a href="" class="active">Home</a></li>
+                    <li class="dropdown">
+                        <a href="services.php" class="dropbtn">Products and Services</a>
+                        <div class="dropdown-content">
+                            <a href="services.php#accounting">Book Keeping Services</a>
+                            <a href="services.php#consulting">Business Consulting</a>
+                            <a href="services.php#analysis">Financial Statement Analysis</a>
+                            <a href="services.php#software">Application and Website Development</a>
+                            <a href="services.php#socialmedia">Social Media Management</a>
+                        </div>
+                    </li>
+                    <li><a href="blog.php">Blog</a></li>
                 </ul>
             </nav>
         </header>
@@ -31,13 +40,13 @@
     <div class="hero-section">
 
         <section>
-            <h1>My <br> Every <br> Penny <br> Accounting</h1>
+            <h1>MEP Book Keeping and accounting services</h1>
         </section>
 
         <div class="subsection-container">
             <div class="container">
                 <h2>Accounting for your small businness</h2>
-                <p>Get quality accounting services for your business needs.</p>
+                <p>At My Every Penny we are passionate about the growth of small business.That's why we provide perfect combination of services to your business. We provide book keeping services, financial statements preparation & analysis, Business consultations, app and website development, and social management. All the support and advice you need to scale your business to new heights</p>
             </div>
         </div>
 
@@ -54,30 +63,9 @@
         </div>
     </div>
 
-    <div class="gray-container">
-        <div class="container">
-            <ul>
-                <li>
-                    <figure>
-                        <img src="images/user1.png" alt="user testimonial picture">
-                        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
-                        <figcaption>- Jane Doe, CEO</figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/user2.png" alt="user testimonial picture">
-                        <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas tenetur totam, dolore</blockquote>
-                        <figcaption>- John Doe, Director</figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-    </div> 
-
     <div class="container">
-        <h4>Consult with us now!</h4>
-        <a href="consult.php" class="cta">Get Started</a>
+        <h4>We take the stress out and let you focus on running the business.</h4>
+        <a href="consult.php" class="cta">Get in touch</a>
     </div>
 
     <footer>
@@ -87,17 +75,14 @@
                     <img src="images/light-logo.svg" alt="logo" class="logo">
                 </a>
                 <br><br>
-                <a href="http://instagram.com/kabbie_Wangethi">
+                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp&utm_content=6qcw5t5">
                     <img src="images/instagram.svg" alt="instagram" class="social-media">
                 </a>
-                <a href="https://twitter.com/KabiWangethi">
+                <a href="https://twitter.com/MyEveryPenny?s=08">
                     <img src="images/twitter.svg" alt="twitter">
                 </a>
-                <a href="https://www.linkedin.com/in/kabi-wangethi">
-                    <img src="images/linkedin.svg" alt="linkedin">
-                </a>
-                <a href="https://www.pinterest.com/KabiWangethi">
-                    <img src="images/pinterest.svg" alt="pinterest">
+                <a href="https://www.facebook.com/My-Every-Penny-372937893321284/?ti=as">
+                    <img src="images/facebook.svg" alt="facebook">
                 </a>
             </div>
         </div>

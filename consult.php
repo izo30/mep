@@ -19,12 +19,20 @@
                 <a href="#" class="hide-desktop">
                     <img src="images/menu.svg" alt="toggle menu" class="menu" id="menu">
                 </a>
-
                 <ul class="show-desktop hide-mobile" id="nav">
                     <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
-                    <li><a href="" class="active">home</a></li>
-                    <li><a href="services.php">products and services</a></li>
-                    <li><a href="blog.php">blog</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li class="dropdown">
+                        <a href="services.php" class="dropbtn">Products and Services</a>
+                        <div class="dropdown-content">
+                            <a href="services.php#accounting">Book Keeping Services</a>
+                            <a href="services.php#consulting">Business Consulting</a>
+                            <a href="services.php#analysis">Financial Statement Analysis</a>
+                            <a href="services.php#software">Application and Website Development</a>
+                            <a href="services.php#socialmedia">Social Media Management</a>
+                        </div>
+                    </li>
+                    <li><a href="blog.php">Blog</a></li>
                 </ul>
             </nav>
         </header>
@@ -57,17 +65,14 @@
                     <img src="images/light-logo.svg" alt="logo" class="logo">
                 </a>
                 <br><br>
-                <a href="http://instagram.com/kabbie_Wangethi">
+                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp&utm_content=6qcw5t5">
                     <img src="images/instagram.svg" alt="instagram" class="social-media">
                 </a>
-                <a href="https://twitter.com/KabiWangethi">
+                <a href="https://twitter.com/MyEveryPenny?s=08">
                     <img src="images/twitter.svg" alt="twitter">
                 </a>
-                <a href="https://www.linkedin.com/in/kabi-wangethi">
-                    <img src="images/linkedin.svg" alt="linkedin">
-                </a>
-                <a href="https://www.pinterest.com/KabiWangethi">
-                    <img src="images/pinterest.svg" alt="pinterest">
+                <a href="https://www.facebook.com/My-Every-Penny-372937893321284/?ti=as">
+                    <img src="images/facebook.svg" alt="facebook">
                 </a>
             </div>
         </div>
