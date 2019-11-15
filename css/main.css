@@ -456,6 +456,10 @@ div.consult-container {
         display: flex;
     }
 
+    .gray-container ul li {
+        width: 50%;
+    }
+
     /* services page */
     .hero-section-services h1 {
         font-size: 60px;

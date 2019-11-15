@@ -40,6 +40,9 @@ if (isset($_SESSION['logged_in'])) {
                 <form action="delete.php" method="get">
 
                     <select name="id" onchange="this.form.submit();">
+                        <option value="Select article to delete">
+                            --- Select article to delete ---
+                        </option>
                         <?php foreach ($articles as $article) { ?>
                             <option value="<?php echo $article['article_id']; ?>">
                                 <?php echo $article['article_title']; ?>

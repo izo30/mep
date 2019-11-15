@@ -46,7 +46,10 @@
         <div class="subsection-container">
             <div class="container">
                 <h2>Accounting for your small businness</h2>
-                <p>At My Every Penny we are passionate about the growth of small business.That's why we provide perfect combination of services to your business. We provide book keeping services, financial statements preparation & analysis, Business consultations, app and website development, and social management. All the support and advice you need to scale your business to new heights</p>
+                <p>At My Every Penny we are passionate about the growth of small business.That's why we provide
+                     perfect combination of services to your business. We provide book keeping services, financial
+                      statements preparation & analysis, Business consultations, app and website development, and
+                       social management. All the support and advice you need to scale your business to new heights</p>
             </div>
         </div>
 
@@ -58,8 +61,37 @@
         <div class="container">
             <div class="peach-container-content">
                 <h3>About MEP</h3>
-                <p>MEP provides the perfect combination of book keeping services, business consultations, app and web design coupled with social media management. We guide you on how to grow your small business ,and manage your family finances for a smooth ride through life. Our dedicated team of experts will partner with you to grow your brand.</p>
+                <p>MEP provides the perfect combination of book keeping services, business consultations, app and 
+                    web design coupled with social media management. We guide you on how to grow your small business
+                     ,and manage your family finances for a smooth ride through life. Our dedicated team of experts
+                      will partner with you to grow your brand.</p>
             </div>
+        </div>
+    </div>
+
+    <div class="gray-container">
+        <div class="container">
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/user1.png" alt="user testimonial picture">
+                        <blockquote>“Working with MEP is a privilege, they’re so talented. The consultation for our
+                            accounting software turned great. We have adopted the recommended software from MEP which
+                            has been awesome.” </blockquote>
+                        <figcaption>- Jane Doe, Client</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/user2.png" alt="user testimonial picture">
+                        <blockquote>“The software we outsourced to MEP has been great. The user interface design is
+                            beautiful and it performs all the functionality we required perfectly. The project
+                            development was organized and the software was delevered on time. Looking forward to work
+                            with MEP again.”</blockquote>
+                        <figcaption>- John Doe, Client</figcaption>
+                    </figure>
+                </li>
+            </ul>
         </div>
     </div>
 
@@ -75,13 +107,13 @@
                     <img src="images/light-logo.svg" alt="logo" class="logo">
                 </a>
                 <br><br>
-                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp&utm_content=6qcw5t5">
+                <a href="#">
                     <img src="images/instagram.svg" alt="instagram" class="social-media">
                 </a>
-                <a href="https://twitter.com/MyEveryPenny?s=08">
+                <a href="#">
                     <img src="images/twitter.svg" alt="twitter">
                 </a>
-                <a href="https://www.facebook.com/My-Every-Penny-372937893321284/?ti=as">
+                <a href="#">
                     <img src="images/facebook.svg" alt="facebook">
                 </a>
             </div>
@@ -105,6 +137,6 @@
         });
 
     </script>
-    
+
 </body>
 </html>

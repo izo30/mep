@@ -54,28 +54,45 @@
                     <a name="consulting">
                         <img src="images/consultation.svg" alt="user testimonial picture">
                         <h3>Business Consulting</h3>
-                        <p>We help you analyse financial information to enable better decision making for your business. we guide you through the process of choosing a reliable accounting software that is best suited for your business needs and provide you with support to enable you use the software efficiently.</p>
+                        <p>We help you analyse financial information to enable better decision making for 
+                            your business. we guide you through the process of choosing a reliable accounting 
+                            software that is best suited for your business needs and provide you with support 
+                            to enable you use the software efficiently.</p>
                     </a>
                 </li>
                 <li>
                     <a name="socialmedia">
                         <img src="images/social-media.svg" alt="user testimonial picture">
                         <h3>Social Media Management</h3>
-                        <p>We lay the groundwork for building a healthy relationship between your business and your customers. We provide compelling visuals and engaging messgaes that attract more customers to your business and provide a better understanding of your business products and services easily. We beleive that every business should take advantage of social media for marketing and we are here to help in every way.</p>
+                        <p>We lay the groundwork for building a healthy relationship between your business and 
+                            your customers. We provide compelling visuals and engaging messgaes that attract 
+                            more customers to your business and provide a better understanding of your business
+                             products and services easily. We beleive that every business should take advantage
+                              of social media for marketing and we are here to help in every way.</p>
                     </a>
                 </li>
                 <li>
                     <a name="accounting">
                         <img src="images/accounting.svg" alt="user testimonial picture">
                         <h3>Book Keeping Services</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloreundefined</p>
+                        <p>Outsourcing your bookkeeping and accounting services to MEP frees you to focus on what
+                             you do best marketing and growing your business. MEP Bookkeeping takes care of all
+                              your accounting and bookkeeping tasks, tax returns and payroll processing helping 
+                              you to record transactions, analyze trends and track progress towards your financial
+                               goals. We come in handy to do your postings and take care of your fincancial 
+                               accounting & bookkeeping services ensuring you get peace of mind knowing your books
+                                are accurate and up-to-date at all times.</p>
                     </a>
                 </li>
                 <li>
                     <a name="analysis">
                         <img src="images/financial-analysis.svg" alt="user testimonial picture">
                         <h3>Financial Statement Analysis</h3>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et doloreundefined</p>
+                        <p>MEP is an experienced finance & accounting outsourcing company which can provide 
+                            high-quality and cost-effective financial analysis services of compliant with 
+                            international standards. We are a preferred outsourcing partner when it comes to 
+                            financial analysis services to clients across the globe, as outsourcing financial 
+                            analysis services to FWS ensures better quality, lower cost and easier management.</p>
                     </a>
                 </li>
                 <li>
@@ -107,13 +124,13 @@
                     <img src="images/light-logo.svg" alt="logo" class="logo">
                 </a>
                 <br><br>
-                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp&utm_content=6qcw5t5">
+                <a href="#">
                     <img src="images/instagram.svg" alt="instagram" class="social-media">
                 </a>
-                <a href="https://twitter.com/MyEveryPenny?s=08">
+                <a href="#">
                     <img src="images/twitter.svg" alt="twitter">
                 </a>
-                <a href="https://www.facebook.com/My-Every-Penny-372937893321284/?ti=as">
+                <a href="#">
                     <img src="images/facebook.svg" alt="facebook">
                 </a>
             </div>

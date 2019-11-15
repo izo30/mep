@@ -69,7 +69,7 @@ $next_article = $article->fetch_next_id($data['article_id']);
                 <?php echo $data['article_title']; ?>
             </h1>
             <ul>
-                <li>By Kabbie Wangethi,</li>
+                <li>By Wangethi,</li>
                 <li>Posted on <?php echo date('jS M Y', $data['article_timestamp']); ?></li>
             </ul>
             <p>
@@ -116,13 +116,13 @@ $next_article = $article->fetch_next_id($data['article_id']);
                     <img src="images/light-logo.svg" alt="logo" class="logo">
                 </a>
                 <br><br>
-                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=whatsapp&utm_content=6qcw5t5">
+                <a href="#">
                     <img src="images/instagram.svg" alt="instagram" class="social-media">
                 </a>
-                <a href="https://twitter.com/MyEveryPenny?s=08">
+                <a href="#">
                     <img src="images/twitter.svg" alt="twitter">
                 </a>
-                <a href="https://www.facebook.com/My-Every-Penny-372937893321284/?ti=as">
+                <a href="#">
                     <img src="images/facebook.svg" alt="facebook">
                 </a>
             </div>
