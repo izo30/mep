@@ -45,11 +45,11 @@ h1 {
     font-size: 35px;
     font-weight: 600;
     line-height: 41px;
-    text-transform: uppercase;
+    text-transform: none;
     margin: 0;
 }
 
-section {
+.hero-section section {
     height: 140px;
     background: url("../images/hero.png");
     opacity: 0.88;
@@ -78,11 +78,6 @@ section {
     background-color: #ff9683;
     color: #FFF;
     padding: 1em 0;
-    transform: skewY(-3deg);
-}
-
-.peach-container-content {
-    transform: skewY(3deg);
 }
 
 .peach-container h3 p {
@@ -99,13 +94,12 @@ section {
 
 .peach-container p {
     color: #242424;
-    margin: .5em;
+    margin: .5em .5em 2em .5em;
 }
 
 .gray-container {
     background: #F6F6F6;
     padding: 2em 0 2em;
-    margin-top: -3%;
 }
 
 .gray-container ul li:first-child {
@@ -153,11 +147,6 @@ h4 {
     background-color: #313131;
     color: #FFF;
     padding: 3em 0;
-    transform: skewY(3deg);
-}
-
-.footer-container .container {
-    transform: skewY(-3deg);
 }
 
 ul.footer-links {
@@ -171,6 +160,10 @@ ul.footer-links li {
 ul.footer-links li a {
     color: #9D9D9D;
     font-size: .8em;  
+}
+
+.footer-container img {
+    margin: 0 3%;
 }
 
 nav ul {
@@ -189,7 +182,6 @@ nav ul li a {
     color: #FFF;
     text-decoration: none;
     display: block;
-    width: 100%;
     padding: 1em 2em;
     background-color: rgb(52,59,63);
 }
@@ -210,8 +202,212 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 3;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: white;
+    background-color: #737373;
+    padding: 12px 30px 12px 40px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* services page */
+.hero-section-services {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.hero-section-services section {
+    background: #800080;
+    opacity: 0.88;
+    padding: 5% 0;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-section-services section::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-5deg);
+}
+
+.hero-section-services h1 {
+    margin: 0 10%;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: none !important;
+}
+
+.gray-container-services h3 {
+    font-size: 25px;
+}
+
+.gray-container-services p {
+    text-align: left;
+}
+
+.gray-container-services {
+    background: #F6F6F6;
+    padding: 2em 0;
+    margin-top: 8%;
+}
+
+.gray-container-services ul li:first-child {
+    margin-bottom: 0;
+}
+
+.gray-container-services ul li:last-child p {
+    margin-bottom: 0;
+}
+
+.gray-container-services ul li {
+    padding: 2%;
+}
+
+.gray-container-services ul.software-services-list {
+    text-align: left;
+    list-style-type: square;
+}
+
+.gray-container-services ul.software-services-list li {
+    font-size: 20px;
+    margin: 0 0 0 1em;
+}
+
+/* blog page */
+.blog-container {
+    background-color: #ff917e;
+    padding: 5%;
+}
+
+.article-container {
+    box-shadow: 17px 14px 34px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 4%;
+}
+
+.article-container h1 {
+    color: #4a054a;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: none;
+}
+
+.article-container ul li {
+    display: inline-flex;
+    color: #7b7b7b;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 73px;
+}
+
+.article-container p {
+    color: #000000;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.article-container ul li img:hover {
+    box-shadow: 17px 14px 34px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
+aside {
+    box-shadow: 17px 14px 34px rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-top: 5%;
+}
+
+aside h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 64px;
+    padding: 0 4%;
+    margin: 0;
+    background: #3d023d;
+}
+
+aside ul {
+    background: #e9e9e9;
+}
+
+aside ul li {
+    padding: .5em 4%;
+}
+
+aside ul li a {
+    color: #565353;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    cursor: pointer;
+    border: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #565353;
+}
+
+/* consult page */
+div.consult-container {
+    background: #e7e7e7;
+    margin: 0;
+    padding: 10%;
+}
+
+.consult-container , input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.consult-container input[type=submit] {
+    width: 100%;
+    font-size: 20px;
+    background-color: #4a054a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 @media only screen and (min-width: 413px) {
-    section {
+    .hero-section section {
         background: #800080;
         opacity: 0.88;
     }
@@ -223,7 +419,7 @@ nav ul li a:hover {
         margin-left: .5%;
     }
 
-    section {
+    .hero-section section {
         width: 40%;
         height: 130px;
         border: 1px solid #707070;
@@ -238,10 +434,67 @@ nav ul li a:hover {
         margin-left: 50%;
     }
 
+    .subsection-container h2 {
+        font-size: 3em;
+        font-weight: 600;
+        line-height: 1em;
+        margin: 0 5% 0 0;
+        padding: 0;
+    }
+
+    .subsection-container p {
+        width: 100%;
+        font-size: 1.25em;
+        line-height: 1.6em;
+    }
+
+    .gray-container {
+        padding-top: 0;
+    }
+
     .gray-container ul {
         display: flex;
     }
 
+    .gray-container ul li {
+        width: 50%;
+    }
+
+    /* services page */
+    .hero-section-services h1 {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .gray-container-services ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gray-container-services ul li {
+        flex-basis: 40%;
+    }
+
+    /* blog page */
+    aside {
+        width: 40%;
+    }
+
+    .top-aside {
+        margin-right: 5%;
+    }
+
+    .aside-content {
+        display: -webkit-flex; /* Safari */
+        display: flex;
+    }
+
+    /* consult page */
+    div.consult-container {
+        padding: 10% 20%;
+    }
 }
 
 @media only screen and (min-width: 704px) {
@@ -263,10 +516,6 @@ nav ul li a:hover {
 
     .hero-section {
         padding: 0 5%;
-    }
-
-    .section {
-        width: 450px;
     }
 
     .subsection-container{
@@ -311,17 +560,39 @@ nav ul li a:hover {
 
     nav ul li a {
         color: #565353;
-        font-family: Montserrat;
         font-size: 20px;
         font-weight: 600;
         line-height: 24px;
         background-color: inherit;
         text-align: right;
         padding: 1em 2em;
+        border-bottom: #ff775f;
     }
 
     nav ul li a:hover {
         background-color: inherit;
+    }
+
+    nav ul li a.dropbtn:hover {
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        background: rgb(45, 50, 53);
+        padding: 10px 0;
+    }
+
+    .dropdown-content a {
+        background: rgb(45, 50, 53);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        padding: .5em 2em;
+    }
+
+    .dropdown-content a:hover {
+        background-color: rgb(61, 61, 61);
+        color: white;
     }
 
     .scroll {
@@ -344,31 +615,16 @@ nav ul li a:hover {
         margin: 0 0 0 4.5%;
     }
 
-    section {
+    .hero-section section {
         width: 400px;
         height: 300px;
     }
 
-    section h1 {
+    .hero-section section h1 {
         font-size: 3.4em;
         font-weight: 400;
         line-height: 1em;
         margin: 5%;
-    }
-
-    .subsection-container h2 {
-        font-size: 3.5em;
-        font-weight: 600;
-        line-height: 1em;
-        margin: 3% 15% 0 0;
-        padding: 0;
-    }
-
-    .subsection-container p {
-        width: 80%;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 45px;
     }
 
     .subsection-container {
@@ -390,39 +646,65 @@ nav ul li a:hover {
         font-size: 25px;
         font-weight: 400;
         line-height: 46px;
+        margin-bottom: 20px;
     }
 
     .gray-container ul {
         margin-top: 7%;
     }
+
+    /* blog page */
+
+    .blog-container {
+        padding: 3%;
+    }
+
+    .article-container {
+        width: 65%;
+        padding: 5%;
+    }
+
+    aside {
+        width: 87%;
+        margin: 0 0 0 auto;
+    }
+
+    .aside-content {
+        display: block;
+        width: 40%;
+    }
+
+    .bottom-aside {
+        margin-top:5%;
+    }
+
+    .top-aside {
+        margin-right: 0;
+    }
+
+    .blog-container {
+        display: -webkit-flex; /* Safari */
+        display: flex;
+    }
+
+    /* consult page */
+    div.consult-container {
+        padding: 5% 25%;
+    }
 }
 
 @media only screen and (min-width: 1188px) {
-    section {
+    .hero-section section {
         width: 500px;
         height: 300px;
     }
 
-    section h1 {
+    .hero-section section h1 {
         font-size: 4em;
         font-weight: 400;
         line-height: 1em;
         margin: 5%;
     }
 
-    .subsection-container h2 {
-        font-size: 3.8em;
-        font-weight: 600;
-        line-height: 1em;
-        margin: 5% 15% 0 0;
-        padding: 0;
-    }
-
-    .subsection-container p {
-        width: 80%;
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 45px;
-    }
 }
 
